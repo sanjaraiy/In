@@ -9,8 +9,8 @@ function Authentication() {
     const handleChange=()=>{
         setActive(active==="login" ? "signup":"login")
     }
-
-  return (
+    
+ return (
     <div className='authentication'>
         <div className='auth-left'>
             <img src='https://i.imgur.com/P3Vm1Kq.png' alt=''></img>
