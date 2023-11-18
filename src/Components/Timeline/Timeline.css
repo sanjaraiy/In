@@ -1,0 +1,10 @@
+.timeline_Container{
+    display: flex;
+    flex-direction: row;
+}
+.t_left{
+   flex: 0.7;
+}
+.t_right{
+  flex:0.3;
+}

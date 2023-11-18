@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    flex-direction:row;
+}
+
+.navBar{
+    flex: 0.2;
+}
+.timeLine{
+    flex: 0.8;
+}

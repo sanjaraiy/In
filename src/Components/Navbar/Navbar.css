@@ -1,0 +1,47 @@
+.side_navBar{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index:1;
+
+
+}
+.insta_logo{
+    width:120px;
+    margin: 25px;
+}
+
+.btns{
+   display: flex;
+   flex-direction: column;
+}
+.side-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    margin:5px 10px ;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.side-btn:hover{
+   cursor: pointer;
+   background-color: rgba(255,255,255,0.128);
+}
+
+.side-btn> span{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left:10px ;
+}
+
+.more-btn{
+    position: fixed;
+    bottom: 3px;
+}
