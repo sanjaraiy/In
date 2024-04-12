@@ -24,4 +24,4 @@ export const userSlice=createSlice({
     }
 })
 
-export const {loginUser,logOut,setLoading}=userSlice.actions;
+export const {loginUser,logoutUser,setLoading}=userSlice.actions;
